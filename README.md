@@ -1,10 +1,13 @@
 __To Run:__
-1. Please clone repo, ensuring that you are in master branch 
+1. Please clone repo, ensuring that you are in es5 branch (```git checkout es5```)
 2. To test with different ```userLocation``` or adjust what has been referred to in the challenge as the range of the world, please edit the values of constants
 ```const userLocation = [0,2];```
 ```const gridRange = [-10, 10];```
-on lines 3 and 4 of *ClosestFacilityFinder.js* ensuring that the ```userLocation``` is within the range of the "world", and ```gridRange```, aka "world" is always symmetrical, and both are formatted as Number arrays. (see assumptions below)
-3. call ```node ClosestFacilityFinder.js``` from your terminal.~
+on lines 10 and 11 of *./es5/es5-ClosestFacilityFinder.js* ensuring that the ```userLocation``` is within the range of the "world", and ```gridRange```, aka "world" is always symmetrical, and both are formatted as Number arrays. (see assumptions below)
+3. OPTION 1 (best for backward compatibility)- Call ```node es5/es5-ClosestFacilityFinder.js``` from your terminal. This path contains the babel-transpiled versions of the original files found in ./es6+  
+
+OPTION 2- Alternatively, for Node versions >= v12.4.0, you may call ```node es6+/ClosestFacilityFinder.js```
+
 ***
 /*Assumptions*/
 /*
