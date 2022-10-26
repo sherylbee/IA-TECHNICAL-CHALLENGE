@@ -4,7 +4,7 @@ __To Run:__
 ```const userLocation = [0,2];```
 ```const gridRange = [-10, 10];```
 on lines 3 and 4 of *ClosestFacilityFinder.js* ensuring that the ```userLocation``` is within the range of the "world", and ```gridRange```, aka "world" is always symmetrical, and both are formatted as Number arrays. (see assumptions below)
-3. call ```node ClosestFacilityFinder.js``` from your terminal.~
+3. call ```node es5-ClosestFacilityFinder.js``` from your terminal.~
 ***
 /*Assumptions*/
 /*
